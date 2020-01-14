@@ -1,0 +1,5 @@
+[
+  {"RoleID": 1, "RoleName": "Administrators", "DateCreated": "2020-01-14 16:41:56", "DateModified": "2020-01-14 16:41:56"}
+  {"RoleID": 2, "RoleName": "Managers", "DateCreated": "2020-01-14 16:41:56", "DateModified": "2020-01-14 16:41:56"}
+  {"RoleID": 3, "RoleName": "Sales Associates", "DateCreated": "2020-01-14 16:41:56", "DateModified": "2020-01-14 16:41:56"}
+]

@@ -1,0 +1,124 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "275f596d-296d-4af5-9040-db8de72fad5f",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "275f596d-296d-4af5-9040-db8de72fad5f",
+      "content-type": "application/json",
+      "content-length": "1457",
+      "date": "Tue, 14 Jan 2020 16:42:43 GMT"
+    },
+    "RetryAttempts": 0
+  },
+  "columnMetadata": [
+    {
+      "arrayBaseColumnType": 0,
+      "isAutoIncrement": true,
+      "isCaseSensitive": false,
+      "isCurrency": false,
+      "isSigned": false,
+      "label": "RoleID",
+      "name": "RoleID",
+      "nullable": 0,
+      "precision": 10,
+      "scale": 0,
+      "schemaName": "",
+      "tableName": "Role",
+      "type": 4,
+      "typeName": "INT UNSIGNED"
+    },
+    {
+      "arrayBaseColumnType": 0,
+      "isAutoIncrement": false,
+      "isCaseSensitive": false,
+      "isCurrency": false,
+      "isSigned": false,
+      "label": "RoleName",
+      "name": "RoleName",
+      "nullable": 0,
+      "precision": 80,
+      "scale": 0,
+      "schemaName": "",
+      "tableName": "Role",
+      "type": 12,
+      "typeName": "VARCHAR"
+    },
+    {
+      "arrayBaseColumnType": 0,
+      "isAutoIncrement": false,
+      "isCaseSensitive": false,
+      "isCurrency": false,
+      "isSigned": false,
+      "label": "DateCreated",
+      "name": "DateCreated",
+      "nullable": 1,
+      "precision": 19,
+      "scale": 0,
+      "schemaName": "",
+      "tableName": "Role",
+      "type": 93,
+      "typeName": "TIMESTAMP"
+    },
+    {
+      "arrayBaseColumnType": 0,
+      "isAutoIncrement": false,
+      "isCaseSensitive": false,
+      "isCurrency": false,
+      "isSigned": false,
+      "label": "DateModified",
+      "name": "DateModified",
+      "nullable": 1,
+      "precision": 19,
+      "scale": 0,
+      "schemaName": "",
+      "tableName": "Role",
+      "type": 93,
+      "typeName": "TIMESTAMP"
+    }
+  ],
+  "numberOfRecordsUpdated": 0,
+  "records": [
+    [
+      {
+        "longValue": 1
+      },
+      {
+        "stringValue": "Administrators"
+      },
+      {
+        "stringValue": "2020-01-14 16:41:56"
+      },
+      {
+        "stringValue": "2020-01-14 16:41:56"
+      }
+    ],
+    [
+      {
+        "longValue": 2
+      },
+      {
+        "stringValue": "Managers"
+      },
+      {
+        "stringValue": "2020-01-14 16:41:56"
+      },
+      {
+        "stringValue": "2020-01-14 16:41:56"
+      }
+    ],
+    [
+      {
+        "longValue": 3
+      },
+      {
+        "stringValue": "Sales Associates"
+      },
+      {
+        "stringValue": "2020-01-14 16:41:56"
+      },
+      {
+        "stringValue": "2020-01-14 16:41:56"
+      }
+    ]
+  ]
+}
