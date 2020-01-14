@@ -10,3 +10,11 @@ The `getRole.py` script that executes the `getRole.sql` query. Aurora gives us `
 ## GET /roles
 
 This should work for both a single object as well as an array of objects. The `getRoles.py` script that executes the `getRoles.sql` query. Aurora gives us `getRoles_actual.json` but we need `getRoles_desired.json`.
+
+## Helpful Links
+
+[Calling the Data API from a Python Application](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html#data-api.calling.python)
+
+[Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/rds-data.html)
+
+[Jeremy Daly's NodeJS solution to this problem](https://www.jeremydaly.com/aurora-serverless-data-api-a-first-look/)
