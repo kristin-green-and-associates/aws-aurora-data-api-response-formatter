@@ -1,0 +1,159 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "65327f09-5b9d-471d-ac6a-70c5c74b2be1",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "65327f09-5b9d-471d-ac6a-70c5c74b2be1",
+      "content-type": "application/json",
+      "content-length": "1108",
+      "date": "Tue, 14 Jan 2020 04:59:45 GMT"
+    },
+    "RetryAttempts": 0
+  },
+  "columnMetadata": [
+    {
+      "arrayBaseColumnType": 0,
+      "isAutoIncrement": false,
+      "isCaseSensitive": false,
+      "isCurrency": false,
+      "isSigned": false,
+      "label": "Tables_in_trinity_db",
+      "name": "TABLE_NAME",
+      "nullable": 0,
+      "precision": 64,
+      "scale": 0,
+      "schemaName": "",
+      "tableName": "TABLE_NAMES",
+      "type": 12,
+      "typeName": "VARCHAR"
+    }
+  ],
+  "numberOfRecordsUpdated": 0,
+  "records": [
+    [
+      {
+        "stringValue": "BinLocation"
+      }
+    ],
+    [
+      {
+        "stringValue": "City"
+      }
+    ],
+    [
+      {
+        "stringValue": "Customer"
+      }
+    ],
+    [
+      {
+        "stringValue": "CustomerAddress"
+      }
+    ],
+    [
+      {
+        "stringValue": "CustomerContact"
+      }
+    ],
+    [
+      {
+        "stringValue": "CustomerNote"
+      }
+    ],
+    [
+      {
+        "stringValue": "GLAccount"
+      }
+    ],
+    [
+      {
+        "stringValue": "Issue"
+      }
+    ],
+    [
+      {
+        "stringValue": "IssueType"
+      }
+    ],
+    [
+      {
+        "stringValue": "Item"
+      }
+    ],
+    [
+      {
+        "stringValue": "ItemPrice"
+      }
+    ],
+    [
+      {
+        "stringValue": "Location"
+      }
+    ],
+    [
+      {
+        "stringValue": "PaymentMethod"
+      }
+    ],
+    [
+      {
+        "stringValue": "Permission"
+      }
+    ],
+    [
+      {
+        "stringValue": "PrimaryCategory"
+      }
+    ],
+    [
+      {
+        "stringValue": "Resource"
+      }
+    ],
+    [
+      {
+        "stringValue": "Role"
+      }
+    ],
+    [
+      {
+        "stringValue": "RoleHasPermission"
+      }
+    ],
+    [
+      {
+        "stringValue": "SecondaryCategory"
+      }
+    ],
+    [
+      {
+        "stringValue": "Supplier"
+      }
+    ],
+    [
+      {
+        "stringValue": "SupplierAddress"
+      }
+    ],
+    [
+      {
+        "stringValue": "SupplierContact"
+      }
+    ],
+    [
+      {
+        "stringValue": "SupplierNote"
+      }
+    ],
+    [
+      {
+        "stringValue": "Truck"
+      }
+    ],
+    [
+      {
+        "stringValue": "User"
+      }
+    ]
+  ]
+}
