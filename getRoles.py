@@ -1,7 +1,7 @@
 import json
 
 # Fakes an Aurora MySQL Data API Response
-# from 'SELECT * FROM Role WHERE RoleID = 1;'
+# from 'SELECT * FROM Role;'
 def execute_statment(sql):
     json_file = open("getRoles_actual.json", 'r')
     json_response = json_file.read()
@@ -25,5 +25,5 @@ formatted_response = label_values(response['records'], response['columnMetadata'
 # Output the response as JSON
 output = json.dumps(formatted_response)
 
-# See getRole_desired.json for example
+# See getRoles_desired.json for example
 print(output)
