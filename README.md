@@ -5,11 +5,11 @@ Consider the simple table presented in `Role.sql` and the sample data provided i
 
 ## GET /roles/{RoleID}
 
-The `getRole.py` script that executes the `getRole.sql` query. Aurora gives us `getRole_actual.json` but we need `getRole_desired.json`.
+The `getRole.py` script pretends to execute the `getRole.sql` query. Aurora gives us `getRole_actual.json` but we need `getRole_desired.json`.
 
 ## GET /roles
 
-This should work for both a single object as well as an array of objects. The `getRoles.py` script that executes the `getRoles.sql` query. Aurora gives us `getRoles_actual.json` but we need `getRoles_desired.json`.
+This should work for both a single object as well as an array of objects. The `getRoles.py` script pretends to execute the `getRoles.sql` query. Aurora gives us `getRoles_actual.json` but we need `getRoles_desired.json`.
 
 ## Helpful Links
 
@@ -17,4 +17,4 @@ This should work for both a single object as well as an array of objects. The `g
 
 [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/rds-data.html)
 
-[Jeremy Daly's NodeJS solution to this problem](https://www.jeremydaly.com/aurora-serverless-data-api-a-first-look/)
+[Jeremy Daly's NodeJS solution to this problem](https://www.jeremydaly.com/aurora-serverless-data-api-a-first-look/) [jeremydaly/data-api-client](https://github.com/jeremydaly/data-api-client)
