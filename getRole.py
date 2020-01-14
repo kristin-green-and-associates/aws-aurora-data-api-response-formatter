@@ -8,14 +8,6 @@ def execute_statment(sql):
     response = json.loads(json_response)
     return response
 
-# Fakes the merging of labels and values
-# This is the assignment!
-def label_values(records, metadata):
-    json_file = open("getRole_desired.json", 'r')
-    json_response = json_file.read()
-    response = json.loads(json_response)
-    return response
-
 # Query the Aurora MySQL database
 response = execute_statment('SELECT * FROM Role WHERE RoleID = 1;')
 
